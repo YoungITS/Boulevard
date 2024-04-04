@@ -1,0 +1,264 @@
+@import url(./fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.header__nav {
+    background: #282828;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.header__nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__link {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav__logo {
+    display: flex;
+    font-size: 20px;
+}
+
+.nav__logotip {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__content {
+    height: 635px;
+    background: url(../img/Header.png) center / cover;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+.header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title {
+    font-family: "ProstoOne-Regular";
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.header__desc {
+    font-size: 20px;
+    background: #FFFFFF;
+    padding: 13px 14px;
+    border-radius: 10px;
+    margin-top: 36px;
+    color: #171718;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.header__icon {
+    font-size: 16px;
+}
+
+.main__content {
+    background: #151515;
+}
+
+.main__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.main__box_pt {
+    padding-top: 50px;
+}
+.main__box_pt-2 {
+    padding-top: 84px;
+    gap: 90px;
+}
+
+.main__desc {
+    max-width: 540px;
+    width: 100%;
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #fff;
+}
+
+.bold {
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.left{
+    text-align: end;
+}
+.main__card {
+   margin-right: -15px;
+}
+
+.main__card-1 {
+    margin-left: 26px;
+}
+
+.main__card-2 {
+    margin-top: -34px;
+}
+
+.main__img {
+    position: relative;
+}
+
+.main__img::before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+   
+}
+
+.main__img::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 50%;
+    right: -70px;
+}
+
+.main__inform {
+    gap: 30px;
+    margin-top: 79px;
+    display: flex;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 55px;
+    
+}
+
+.main__product {
+    background: #fff;
+    flex-direction: column;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 6px;
+}
+
+
+.main__titl {
+    padding-bottom: 10px;
+}
+
+.main__desc-3 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.main__link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151515;
+    margin-top: 20px;
+    width: 161px;
+    height: 34px;
+}
+
+.footer {
+    background: #282828;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer__logotip {
+    padding: 81px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__icons {
+   display: flex;
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__biglog {
+    gap: 19px;
+    display: flex;
+}
+
+.main__box main__box_pt-2 {
+    gap: 90px;
+}
+

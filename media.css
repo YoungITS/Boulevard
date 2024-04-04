@@ -1,0 +1,276 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;    
+    }
+    
+    .main__box {
+        gap: 30px;
+    }
+    
+    .main__box_pt-2 {
+        gap: 55px;
+    }
+    
+    .main__img::before {
+        left: -45px;
+    }
+    
+    .main__img::after {
+        right: -45px;
+    }
+    
+    .header__title {
+        font-size: 80px;
+    }
+    
+    .main__card {
+        width: 400px;
+    }
+    
+    .main__desc {
+        font-size: 21px;
+    }
+    
+    .main__card-1 {
+        width: 400px;
+    }
+    
+    .main__card-2 {
+        width: 200px;
+    }
+     
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;    
+    }
+    
+    .header__title {
+        font-size: 60px;
+    }
+    
+    .header__desc {
+        font-size: 16px;
+    }
+    
+    .main__card {
+        width: 300px;
+    }
+    
+    .main__desc {
+        font-size: 16px;
+    }
+    
+    .main__card-1 {
+        width: 300px;
+    }
+    
+    .main__card-2 {
+        width: 150px;
+    }
+    
+    .main__inform {
+        width: 700px;
+    }
+    
+    .main__link{
+        width: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;    
+    }
+    .header__title {
+        font-size: 50px;
+    }
+    
+    .main__card {
+        max-width: 250px;
+    }
+    
+    .main__desc {
+        font-size: 14px;
+    }
+    
+    .header__desc {
+        font-size: 14px;
+    }
+    
+    .main__card-1 {
+        max-width: 250px;
+    }
+    
+    .main__card-2 {
+        max-width: 120px;
+    }
+    
+    .main__inform {
+        max-width: 550px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main__imag {
+        max-width: 80px;
+        height: 120px;
+    }
+    .main__link{
+        max-width: 80px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    .footer__logbig {
+        max-width: 50px;
+        height: 50px;
+    }
+    .main__titl{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .main__product {
+        padding-bottom: 5px;
+        padding-top: 0;
+        width: 44%;
+    }
+    
+    .main__desc-3 {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .footer__logotip {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .header__nav .container {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .header__title {
+        font-size: 35px;
+    }
+    
+    .main__card {
+        max-width: 170px;
+    }
+    
+    .main__desc {
+        font-size: 12px;
+    }
+    
+    .header__desc {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    
+    .main__card-1 {
+        max-width: 150px;
+    }
+    
+    .main__card-2 {
+        max-width: 90px;
+    }
+    
+    .main__img::before {
+        width: inherit;
+    }
+    
+    .main__img::after {
+        width: inherit;
+    }
+
+    .main__box_pt-2 {
+        gap: 25px;
+       
+    }
+    
+    .main__imag {
+        max-width: 80px;
+        height: 120px;
+    }
+    .main__link{
+        max-width: 80px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+
+    .footer__biglog {
+        margin-top: 20px;
+    }
+ 
+    .footer__list {
+        margin-top: 20px;
+    }
+
+    .footer__logbig {
+        max-width: 50px;
+        height: 50px;
+    }
+    .main__titl{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .main__product {
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+    
+    .main__desc-3 {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .footer__logotip {
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .main__box {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .header__title {
+        font-size: 30px;
+}
+
+    .header__desc {
+        font-size: 8px;
+        margin-top: 14px;
+}
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px
+    }
+
+    .nav__logotip {
+        margin-top: 20px;
+    }
+
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .main__card-2 { 
+     margin-top: 1px;
+}
+}
